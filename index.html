@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green login</title>
+    <!-- import Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="video-container">
+      <video autoplay muted loop class="background-hero">
+        <source
+          src="media/flowers_4812205-hd_1080_1920_30fps.mp4"
+          type="video/mp4"
+        />
+        Your browser is of an old school kind that prefers to keep its eyes
+        closed.
+      </video>
+    </div>
+    <section id="login">
+      <form action="" method="POST">
+        <label for="username">Your mailbox to find you on the web</label>
+        <input type="text" id="username" name="username" required /><br />
+        <label for="password">Your secret garden key</label>
+        <input type="password" id="password" name="password" required />
+        <button type="submit" id="submit">Spread your wings</button>
+      </form>
+    </section>
+    <button id="theme">Switch to night time</button>
+  </body>
+</html>
